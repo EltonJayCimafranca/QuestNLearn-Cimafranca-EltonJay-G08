@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Admin Dashboard</h2>
+
+<p>Welcome, {{ user.username }}!</p>
+
+<h3>System Management</h3>
+
+<ul>
+    <li>Manage Users</li>
+    <li>Manage Skill Categories</li>
+    <li>Monitor Registered Students</li>
+</ul>
+
+<a href="/admin/">Open Django Admin Panel</a>
+
+{% endblock %}
